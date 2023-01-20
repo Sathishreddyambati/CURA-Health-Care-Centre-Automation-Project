@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T18:30:21 IST" name="Default suite" finished-at="2023-01-19T18:32:55 IST" duration-ms="153547">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T18:30:21 IST" name="Default test" finished-at="2023-01-19T18:32:55 IST" duration-ms="153547">
+      <class name="mainTest.TestClass">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:21 IST" name="SetUp" finished-at="2023-01-19T18:30:31 IST" duration-ms="9794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:1, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:31 IST" name="LoginTest" data-provider="getData" finished-at="2023-01-19T18:30:33 IST" duration-ms="1892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikhila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:33 IST" name="tearDown" finished-at="2023-01-19T18:30:34 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:34 IST" name="SetUp" finished-at="2023-01-19T18:30:45 IST" duration-ms="11014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:1, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:45 IST" name="LoginTest" data-provider="getData" finished-at="2023-01-19T18:30:47 IST" duration-ms="1768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:47 IST" name="tearDown" finished-at="2023-01-19T18:30:48 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:48 IST" name="SetUp" finished-at="2023-01-19T18:30:58 IST" duration-ms="10210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppointmentDta(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:30:58 IST" name="AppointmentDta" data-provider="testData" finished-at="2023-01-19T18:31:18 IST" duration-ms="20121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17/01/2023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dental Care]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Appointment successfully booked on 17/01/2023 for Dental care]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentDta -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:31:18 IST" name="tearDown" finished-at="2023-01-19T18:31:19 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:31:19 IST" name="SetUp" finished-at="2023-01-19T18:31:29 IST" duration-ms="9775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppointmentDta(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:31:29 IST" name="AppointmentDta" data-provider="testData" finished-at="2023-01-19T18:31:32 IST" duration-ms="3882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17/01/2023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Regular Check Up]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Appointment successfully booked on 17/01/2023 for Regular Check up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentDta -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:31:32 IST" name="tearDown" finished-at="2023-01-19T18:31:33 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:31:33 IST" name="SetUp" finished-at="2023-01-19T18:31:47 IST" duration-ms="13464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppointmentDta(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:31:47 IST" name="AppointmentDta" data-provider="testData" finished-at="2023-01-19T18:32:07 IST" duration-ms="20473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18/01/2023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ENT Care]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Appointment successfully booked on 18/01/2023 for ENT Care]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentDta -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:07 IST" name="tearDown" finished-at="2023-01-19T18:32:08 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:08 IST" name="SetUp" finished-at="2023-01-19T18:32:17 IST" duration-ms="9567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppointmentDta(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:17 IST" name="AppointmentDta" data-provider="testData" finished-at="2023-01-19T18:32:37 IST" duration-ms="19735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19/01/2023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dermatology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Appointment successfully booked on 19/01/2023 for Dermatology]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentDta -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:37 IST" name="tearDown" finished-at="2023-01-19T18:32:38 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:38 IST" name="SetUp" finished-at="2023-01-19T18:32:48 IST" duration-ms="10358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppointmentDta(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:48 IST" name="AppointmentDta" data-provider="testData" finished-at="2023-01-19T18:32:54 IST" duration-ms="5872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/02/2023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ophthalmology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Appointment successfully booked on 02/02/2023 for Ophthalmology]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentDta -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainTest.TestClass@76c3e77a]" started-at="2023-01-19T18:32:54 IST" name="tearDown" finished-at="2023-01-19T18:32:55 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mainTest.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
